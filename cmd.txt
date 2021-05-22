@@ -1,0 +1,20 @@
+###Bash
+
+#To source ~/.bashrc
+bsh	//this is alias to source ~/.bashrc
+bash	//this is reload bash shell.
+
+
+
+###Verilog (Icarus)
+
+#Compile
+iverilog file.v		//complie
+vvp a.out		//running executable
+
+
+##git
+
+git add <file.ext> 		//to add
+git commit -m "description"	//to commit
+git push origin <branch_name>	//pushing to github
