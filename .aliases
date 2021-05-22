@@ -1,0 +1,13 @@
+alias v='gvim'
+alias whc='command -v'
+alias c='clear'
+
+alias bsh='source ~/.bashrc'
+
+alias gtb='cd /home/gminocha/github_workspace'
+alias cmd='gvim /home/gminocha/cmd.txt'
+
+
+mkcd () {
+ mkdir "$1" && cd "$1"
+}
