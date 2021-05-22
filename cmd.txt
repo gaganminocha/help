@@ -25,13 +25,25 @@ git config --global user.email 'gagan.minocha@outlook.com'
 #git_commands
 git add <file.ext> 		//to add
 git commit -m "description"	//to commit files from staging area to local repo
-git push origin <branch_name>	//to push to github
-git status 			//to see all pending files in staging area(index), ready for commit.
-git init			//to intialize new repo
+git status 			//to see all pending files in staging area, ready for commit, all modified files
+git init -b <branchname>	//to intialize new repo
 git pull 			//to pull latest changes from online repo
 git clone <url> 		//to clone online repo locally.
 
 #branch
 git branch -m <oldname> <newname>	//change branch name 
 git branch -m <newname>			//change current branch name 
+
+#push
+#first_time
+git remote add origin <url>	//url to have the repo
+git push origin <branch_name>	//to push to github repo
+
+#for already existing repo
+git push origin <branch_name>	//to push to github
+
+#remote - command for remote repo
+git remote add origin <url>
+git remote rm origin 		//to remove remote info
+
 
