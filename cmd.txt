@@ -27,8 +27,10 @@ git add <file.ext> 		//to add
 git commit -m "description"	//to commit files from staging area to local repo
 git status 			//to see all pending files in staging area, ready for commit, all modified files
 git init -b <branchname>	//to intialize new repo
-git pull 			//to pull latest changes from online repo
+
+#pull
 git clone <url> 		//to clone online repo locally.
+git pull 			//to pull latest changes from online repo
 
 #branch
 git branch -m <oldname> <newname>	//change branch name 
@@ -45,5 +47,6 @@ git push origin <branch_name>	//to push to github
 #remote - command for remote repo
 git remote add origin <url>
 git remote rm origin 		//to remove remote info
+git remote show origin		//to show remote info/url
 
 
