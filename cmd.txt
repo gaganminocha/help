@@ -30,3 +30,8 @@ git status 			//to see all pending files in staging area(index), ready for commi
 git init			//to intialize new repo
 git pull 			//to pull latest changes from online repo
 git clone <url> 		//to clone online repo locally.
+
+#branch
+git branch -m <oldname> <newname>	//change branch name 
+git branch -m <newname>			//change current branch name 
+
