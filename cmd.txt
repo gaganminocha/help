@@ -10,9 +10,10 @@ bash	//this is reload bash shell.
 
 #Compile
 iverilog file.v		//complie
-#Ru
+#Run
 vvp a.out		//running executable
-
+#waveform
+gtkwave &		//Then load VCD.
 
 ###git
 #link
