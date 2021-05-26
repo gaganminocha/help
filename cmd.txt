@@ -31,7 +31,7 @@ git init -b <branchname>	//to intialize new repo
 
 #pull
 git clone <url> 		//to clone online repo locally.
-git pull 			//to pull latest changes from online repo
+git pull origin main 		//to pull latest changes from online repo
 
 #branch
 git branch -m <oldname> <newname>	//change branch name 
