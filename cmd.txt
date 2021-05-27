@@ -4,7 +4,7 @@
 bsh	//this is alias to source ~/.bashrc
 bash	//this is reload bash shell.
 
-
+sudo apt-get install <package_name>
 
 ###Verilog (Icarus)
 
@@ -14,6 +14,18 @@ iverilog file.v		//complie
 vvp a.out		//running executable
 #waveform
 gtkwave &		//Then load VCD.
+
+#Coverage
+
+#From design
+covered score -I <dir> -v <file_name> -t <top_module> -i <module_for_coverage> -o <out_file>
+
+#From vcd (this is recommended. Used after iverilog and vvp command - $dumpfile is must in tb )
+covered score -vcd <dumpfile_name> -o <out_file>
+
+#See the reports (generally outfile name is cov.cdd)
+covered repot -view <out_file> 
+
 
 ###git
 #link
