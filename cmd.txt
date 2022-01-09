@@ -79,7 +79,5 @@ git remote add origin <url>
 git remote rm origin 		//to remove remote info
 git remote show origin		//to show remote info/url
 
-PAT:
-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
 
 
